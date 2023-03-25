@@ -47,3 +47,12 @@ Halaman developer berisi informasi pengembang website ini. Disini juga user dapa
 ![developer2](https://user-images.githubusercontent.com/118908051/227710051-7b87d7b2-b5a0-4a97-8380-af2c93f102c1.png)
 
 ![developer3](https://user-images.githubusercontent.com/118908051/227710057-4e026a9b-0847-4037-98b6-001b0116515f.png)
+
+## Sistem
+### Local Storage
+Berikut tampilan data yang disimpan dalam localStorage
+![local](https://user-images.githubusercontent.com/118908051/227710453-21daaa03-12f0-4eed-a049-650bd080eff4.png)
+
+### Session Storage
+Berikut tampilan data yang disimpan dalam sessionStorage
+![session](https://user-images.githubusercontent.com/118908051/227710449-71ad15f9-1e29-472d-a860-42f786ca93e7.png)
