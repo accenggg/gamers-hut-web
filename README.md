@@ -12,9 +12,9 @@ Halaman registrasi digunakan untuk melakukan pendaftaran/pembuatan akun untuk lo
 
 ### 3. Home
 Halaman home akan muncul ketika berhasil login. Terdapat navbar, produk, informasi website, dan juga informasi toko.
-![regis](https://user-images.githubusercontent.com/118908051/227709702-c4c8e39d-1adc-4dc0-be3b-a82dc8e9ec2d.png)
+![home](https://user-images.githubusercontent.com/118908051/227710118-2b9eaaa3-e7b4-405f-93a3-bae5e66d3025.png)
 
-![regis](https://user-images.githubusercontent.com/118908051/227709765-e9315cf3-27e6-4665-803b-04e534cc300c.png)
+![home2](https://user-images.githubusercontent.com/118908051/227710129-39ba03d6-e43f-4d97-a233-6aa3b73c1c35.png)
 
 ### 4. Profile
 Halaman profile berisi informasi terkait akun user, di halaman ini juga user dapat logout
