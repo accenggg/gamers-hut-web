@@ -18,11 +18,11 @@ Halaman home akan muncul ketika berhasil login. Terdapat navbar, produk, informa
 
 ### 4. Profile
 Halaman profile berisi informasi terkait akun user, di halaman ini juga user dapat logout
-![regis](https://user-images.githubusercontent.com/118908051/227709791-bec24852-fec2-41fd-bc00-39bceaa3b705.png)
+![profile](https://user-images.githubusercontent.com/118908051/227710156-f5b84537-d73f-4ea0-bdda-3374a1ca217b.png)
 
 ### 5. Order Produk
 Halaman order produk digunakan user untuk melakukan pembelian. Disini terdapat form akun user, jumlah produk, serta harganya.
-![regis](https://user-images.githubusercontent.com/118908051/227709909-006cd0b9-8af4-4cf5-8f56-961ac5e88df3.png)
+![produk](https://user-images.githubusercontent.com/118908051/227710167-5294e54f-c65f-428b-b52a-649269bbcbd2.png)
 
 ![produk1](https://user-images.githubusercontent.com/118908051/227709916-aaf1503a-0814-4cc0-9207-f9fcc6f643e2.png)
 
