@@ -28,11 +28,11 @@ Halaman order produk digunakan user untuk melakukan pembelian. Disini terdapat f
 
 ### 6. Pricelist
 Halaman pricelist berisi harga-harga terkait produk yang dijual.
-![produk1](https://user-images.githubusercontent.com/118908051/227709945-ce6161eb-dea5-4c5d-b1fa-f2eab352cc4c.png)
+![pricelist](https://user-images.githubusercontent.com/118908051/227710198-9d54f17c-33d9-414f-b939-ec3a6e0489c6.png)
 
 ### 7. Riwayat Pembelian
 Halaman riwayat pembelian berisi riwayat pembelian yang telah dilakukan oleh user.
-![produk1](https://user-images.githubusercontent.com/118908051/227709968-277a3fb9-7993-4eb1-a68a-d9cc8b0a70e1.png)
+![riwayat](https://user-images.githubusercontent.com/118908051/227710207-b07540d8-58a1-45ae-9deb-f9e5b5dd5808.png)
 
 ### 8. Berita
 Halaman berita berisi informasi perkembangan game. Terdapat berita berupa teks ataupun video
