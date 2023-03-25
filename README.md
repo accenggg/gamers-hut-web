@@ -42,7 +42,7 @@ Halaman berita berisi informasi perkembangan game. Terdapat berita berupa teks a
 
 ### 9. Developer
 Halaman developer berisi informasi pengembang website ini. Disini juga user dapat melakukan order untuk pembuatan sebuah website. Selain itu, orderan user akan muncul dikotak terakhir
-![berita2](https://user-images.githubusercontent.com/118908051/227710048-cd6c4a39-b1e1-4e78-9e6f-9337c1260a8f.png)
+![developer](https://user-images.githubusercontent.com/118908051/227710235-2d83e568-3476-4306-9c7a-6fe23da727b2.png)
 
 ![developer2](https://user-images.githubusercontent.com/118908051/227710051-7b87d7b2-b5a0-4a97-8380-af2c93f102c1.png)
 
