@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DEVELOPER | TOP UP GAME</title>
     <link rel="icon" href="../img/icon-web.png">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../../css/style.css">
     <style type="text/css">
         #developer{
             background-image: url('../img/kuliah\ umum.jpg');
@@ -14,7 +14,7 @@
     </style>
 </head>
 <body>
-    <div class="w-full h-[1900px] bg-gradient-to-br to-sky-300 from-sky-100 px-4 pt-4 relative">
+    <div class="w-full h-[2300px] bg-gradient-to-br to-sky-300 from-sky-100 px-4 pt-4 relative">
         <div class="drop-shadow-xl relative" id="container-nav">
             <div class="w-full h-14 bg-white rounded-md relative p-2">
                 <div class="float-left scale-90 -mt-1 cursor-pointer" id="navigation">
@@ -127,7 +127,7 @@
             <form class="m-3">
                 <div class="mb-4">
                     <label for="email" class="text-sm">Email</label><br>
-                    <input type="email" name="email" id="email" class="rounded-sm ring-1 ring-sky-300 w-[100%] mt-1 py-1 px-2 " placeholder="masukkan email.">
+                    <input type="email" name="email" id="email" class="rounded-sm ring-1 ring-sky-300 w-[100%] mt-1 py-1 px-2 " placeholder="masukkan email." readonly>
                 </div>
                 <div class="mb-4">
                     <label for="nama-lengkap" class="text-sm">Nama Lengkap</label><br>
@@ -138,7 +138,7 @@
                     <input type="password" name="kode-pesanan" id="kode-pesanan" class="rounded-sm ring-1 ring-sky-300 w-[100%] mt-1 py-1 px-2" placeholder="masukkan kode pesanan.">
                 </div>
                 <div class="mb-4">
-                    <label for="password" class="text-sm">Kategori Website</label><br>
+                    <label for="kategori" class="text-sm">Kategori Website</label><br>
                     <select name="kategori" id="kategori" class="w-full p-1 ring-1 rounded-sm ring-sky-300">
                         <option value="portofolio">Portofolio</option>
                         <option value="e-commerce">E-Commerce</option>
@@ -152,7 +152,7 @@
                         <input type="radio" name="tipe" id="powerfull" class="ml-5" value="powerfull"><label for="powerfull" class="ml-2">Powerfull</label>
                 </div>
                 <div class="mb-4 mt-4">
-                    <label for="password" class="text-sm">Detail Pesanan</label><br>
+                    <label for="order-detail" class="text-sm">Detail Pesanan</label><br>
                     <textarea name="order-detail" id="order-detail" class=" resize-none
                     h-20
                     rounded-sm ring-1 ring-sky-300 w-[100%] mt-1 py-1 px-2" placeholder="Contoh: tambahkan dark mode pada tampilan."></textarea>
@@ -167,6 +167,38 @@
             </form>
         </div>
         </div>
+        <div class="w-full bg-white rounded-md drop-shadow-xl my-5 p-5">
+            <h2 class="text-center font-semibold text-2xl text-slate-700">My Order</h2>
+            <form class="m-3">
+                <div class="mb-4">
+                    <label for="email-order" class="text-sm">Email</label><br>
+                    <input type="email" name="email-order" id="email-order" class="rounded-sm ring-1 ring-sky-300 w-[100%] mt-1 py-1 px-2 " placeholder="belum ada order." readonly>
+                </div>
+                <div class="mb-4">
+                    <label for="nama-lengkap-order" class="text-sm">Nama Lengkap</label><br>
+                    <input type="text" name="nama-lengkap-order" id="nama-lengkap-order" class="rounded-sm ring-1 ring-sky-300 w-[100%] mt-1 py-1 px-2 " placeholder="belum ada order." readonly>
+                </div>
+                <div class="mb-4">
+                    <label for="kode-pesanan-order" class="text-sm">Kode Pesanan</label><br>
+                    <input type="text" name="kode-pesanan-order" id="kode-pesanan-order" class="rounded-sm ring-1 ring-sky-300 w-[100%] mt-1 py-1 px-2" placeholder="belum ada order." readonly>
+                </div>
+                <div class="mb-4">
+                    <label for="kategori-order" class="text-sm">Kategori Website</label><br>
+                    <input type="text" name="kategori-order" id="kategori-order" class="rounded-sm ring-1 ring-sky-300 w-[100%] mt-1 py-1 px-2" placeholder="belum ada order." readonly>
+                </div>
+                <div class="mb-4">
+                    <label for="tipe-order" class="text-sm">Tipe Website</label><br>
+                    <input type="text" name="tipe-order" id="tipe-order" class="rounded-sm ring-1 ring-sky-300 w-[100%] mt-1 py-1 px-2" placeholder="belum ada order." readonly>
+                </div>
+                
+                <div class="mb-4 mt-4">
+                    <label for="order-detail-order" class="text-sm">Detail Pesanan</label><br>
+                    <textarea name="order-detail-order" id="order-detail-order" class=" resize-none
+                    h-20
+                    rounded-sm ring-1 ring-sky-300 w-[100%] mt-1 py-1 px-2" placeholder="Contoh: tambahkan dark mode pada tampilan." readonly></textarea>
+                </div>
+            </form>
+        </div>
         <div class="h-10 absolute bottom-0 left-0 right-0 bg-sky-400 flex">
             <p class="m-auto text-sm">Copyright &copy2023. Michael Dev Allright Reserved</p>
         </div>
@@ -175,5 +207,6 @@
 <script src="../script/navbar.js"></script>
 <script src="../script/user.js"></script>
 <script src="../script/order-web.js"></script>
+<script src="../script/list-order.js"></script>
 </body>
 </html>
