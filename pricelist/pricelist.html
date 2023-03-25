@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DAFTAR HARGA | TOP UP GAME</title>
+    <link rel="icon" href="../img/icon-web.png">
+    <link rel="stylesheet" href="../css/style.css">
+    <style type="text/css">
+        table,tr,th,td{
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body class="overflow-x-hidden">
+    
+    <div class="w-full bg-gradient-to-br to-sky-300 from-sky-100 px-4 pt-4 pb-20 relative">
+        <div class="drop-shadow-xl relative" id="container-nav">
+            <div class="w-full h-14 bg-white rounded-md relative p-2">
+                <div class="float-left scale-90 -mt-1 cursor-pointer" id="navigation">
+                    <img src="../img/menu-icon-b.png" alt="">
+                </div>
+                <a href="../profile/profile.html">
+                    <div class="float-right w-10 h-10 bg-sky-500 rounded-full mr-3 overflow-hidden">
+                        <img src="../img/user.png" alt="">
+                    </div>
+                </a>
+                <div class="float-right mr-3 text-sm text-center font-medium">
+                    <p class="uppercase nama-user">Nama User</p>
+                    <p>Rp <span>0</span></p>
+                </div>
+            </div>
+            <div class="w-full bg-white absolute -bottom-44 rounded-md -z-10 px-4 py-4 hidden " id="nav-detail">
+                <a href="../pricelist/pricelist.html">
+                    <div class="w-full my-1 flex items-center">
+                        <img src="../img/html-icon.png" alt="" width="28" class="mt-0.5">
+                        <p class="ml-2">Daftar Harga</p>
+                    </div>
+                </a>
+                <hr>
+                <a href="../riwayat/riwayat.html">
+                    <div class="w-full my-1 flex items-center">
+                        <img src="../img/html-icon.png" alt="" width="28" class="mt-0.5">
+                        <p class="ml-2">Riwayat Pembelian</p>
+                    </div>
+                </a>
+                <hr>
+                <a href="../berita/berita.html">
+                    <div class="w-full my-1 flex items-center">
+                        <img src="../img/html-icon.png" alt="" width="28" class="mt-0.5">
+                        <p class="ml-2">Berita</p>
+                    </div>
+                </a>
+                <hr>
+                <a href="../developer/developer.html">
+                    <div class="w-full my-1 flex items-center">
+                        <img src="../img/html-icon.png" alt="" width="28" class="mt-0.5">
+                        <p class="ml-2">Developer</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        
+        <a href="../home/home.html" class="mt-5 inline-block w-72">
+            <div>
+                <img src="../img/prev-icon.png" alt="" width="25" class="float-left">
+                <img src="../img/prev-icon.png" alt="" width="25" class="float-left -ml-5">
+            </div>
+            <p class="font-semibold">Kembali ke halaman sebelumnya</p>
+        </a>
+
+        <div class="relative sapa-user">
+            <p class="my-5 bg-sky-300 p-2 font-semibold bg-opacity-40 text-sky-700">Halo <span class="nama-user uppercase">Nama User</span>, Ini Pricelist Saat Ini!</p>
+            <p class="font-extrabold font-sans right-5 absolute bottom-2 text-sky-600 cursor-pointer exit">X</p>
+        </div>
+        <div class="w-full bg-white rounded-md drop-shadow-xl my-5 p-5">
+            <h2 class="text-xl text-slate-600">Daftar Harga</h2>
+            <select name="pricelist" id="pricelist" class="w-full p-2 border-2 mt-5 text-slate-600 rounded-md">
+                <option value="apex-legends">
+                    Apex Legends
+                </option>
+                <option value="free-fire">
+                    Free Fire
+                </option>
+                <option value="genshin-impact">
+                    Genshin Impact
+                </option>
+                <option value="hyper-front">
+                    Hyper Front
+                </option>
+                <option value="mlbb-a">
+                    Mobile Legends A
+                </option>
+                <option value="mlbb-b">
+                    Mobile Legends B
+                </option>
+                <option value="pubgm-a">
+                    PUBG Mobile A
+                </option>
+                <option value="pubgm-b">
+                    PUBG Mobile B
+                </option>
+                <option value="tower-of-fantasy">
+                    Tower of Fantasy
+                </option>
+                <option value="valorant">
+                    Valorant
+                </option>
+            </select>
+            <div class="overflow-y-auto">
+                <table class="text-center text-xs w-full text-slate-700 font-mono my-5 md:text-base">
+                    <tr>
+                        <th>ID</th>
+                        <th>Produk</th>
+                        <th>Harga</th>
+                        <th>Status</th>
+                    </tr>
+                    <tr>
+                        <td>ML5_0-S13</td>
+                        <td>5 Diamonds ( 5 + 0 Bonus )
+                        </td>
+                        <td>Rp 1.500</td>
+                        <td class="text-lime-500">Tersedia</td>
+                    </tr>
+                    <tr>
+                        <td>ML13_1-S27</td>
+                        <td>14 Diamonds ( 13 + 1 Bonus )
+                        </td>
+                        <td>Rp 3.500</td>
+                        <td class="text-lime-500">Tersedia</td>
+                    </tr>
+                    <tr>
+                        <td>ML26_2-S27</td>
+                        <td>28 Diamonds ( 26 + 2 Bonus )
+                        </td>
+                        <td>Rp 7.500</td>
+                        <td class="text-lime-500">Tersedia</td>
+                    </tr>
+                    <tr>
+                        <td>ML5_0-S13</td>
+                        <td>5 Diamonds ( 5 + 0 Bonus )
+                        </td>
+                        <td>Rp 1.500</td>
+                        <td class="text-lime-500">Tersedia</td>
+                    </tr>
+                    <tr>
+                        <td>ML38_4-S27</td>
+                        <td>42 Diamonds ( 38 + 4 Bonus )
+                        </td>
+                        <td>Rp 11.000</td>
+                        <td class="text-lime-500">Tersedia</td>
+                    </tr>
+                    <tr>
+                        <td>ML51_5-S27</td>
+                        <td>56 Diamonds ( 51 + 5 Bonus )
+                        </td>
+                        <td>Rp 15.000</td>
+                        <td class="text-lime-500">Tersedia</td>
+                    </tr>
+                    <tr>
+                        <td>ML64_6-S27</td>
+                        <td>70 Diamonds ( 64 + 6 Bonus )
+                        </td>
+                        <td>Rp 18.000</td>
+                        <td class="text-lime-500">Tersedia</td>
+                    </tr>
+                    <tr>
+                        <td>ML78_8-S27</td>
+                        <td>86 Diamonds ( 78 + 8 Bonus )
+                        </td>
+                        <td>Rp 20.000</td>
+                        <td class="text-lime-500">Tersedia</td>
+                    </tr>
+                    <tr>
+                        <td>ML104_10-S27</td>
+                        <td>114 Diamonds ( 104 + 10 Bonus )
+                        </td>
+                        <td>Rp 28.000</td>
+                        <td class="text-lime-500">Tersedia</td>
+                    </tr>
+                    <tr>
+                        <td>ML127_13-S27</td>
+                        <td>140 Diamonds ( 127 + 13 Bonus )
+                        </td>
+                        <td>Rp 38.000</td>
+                        <td class="text-lime-500">Tersedia</td>
+                    </tr>
+                    <tr>
+                        <td>ML156_16-S42</td>
+                        <td>172 Diamonds ( 156 + 16 Bonus )
+                        </td>
+                        <td>Rp 40.000</td>
+                        <td class="text-lime-500">Tersedia</td>
+                    </tr>
+                    <tr>
+                        <td>ML234_23-S42</td>
+                        <td>257 Diamonds ( 234 + 23 Bonus )
+                        </td>
+                        <td>Rp 60.000</td>
+                        <td class="text-lime-500">Tersedia</td>
+                    </tr>
+                    <tr>
+                        <td>ML312_32-S42</td>
+                        <td>344 Diamonds ( 312 + 32 Bonus )
+                        </td>
+                        <td>Rp 80.000</td>
+                        <td class="text-lime-500">Tersedia</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="h-10 absolute bottom-0 left-0 right-0 bg-sky-400 flex">
+            <p class="m-auto text-sm">Copyright &copy2023. Michael Dev Allright Reserved</p>
+        </div>
+    </div>
+<script src="../script/navbar.js"></script>
+<script src="../script/user.js"></script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register | TOP UP GAME</title>
+    <link rel="icon" href="../img/icon-web.png">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="overflow-x-hidden">
+    <div class="w-screen bg-gradient-to-br to-sky-300 from-sky-100 flex p-4">
+        <div class="m-auto bg-white max-w-lg rounded-xl p-4 lg:p-7 drop-shadow-2xl">
+            <h1 class="font-bold tracking-wider text-3xl mt-1 text-sky-500 text-center">REGISTER</h1>
+            <form class="m-3">
+                <div class="mb-4">
+                    <label for="email" class="text-sm">Email</label><br>
+                    <input type="email" name="email" id="email" class="rounded-sm ring-1 ring-sky-300 w-[100%] mt-1 py-1 px-2" placeholder="masukkan email.">
+                </div>
+                <div class="mb-4">
+                    <label for="username" class="text-sm">Username</label><br>
+                    <input type="text" name="username" id="username" class="rounded-sm ring-1 ring-sky-300 w-[100%] mt-1 py-1 px-2 " placeholder="masukkan username.">
+                </div>
+                <div class="mb-4">
+                    <label for="password" class="text-sm">Password</label><br>
+                    <input type="password" name="password" id="password" class="rounded-sm ring-1 ring-sky-300 w-[100%] mt-1 py-1 px-2" placeholder="masukkan password.">
+                </div>
+                <div class="mb-4">
+                    <label for="password" class="text-sm">Usia</label><br>
+                    <select name="usia" id="usia" class="w-full p-1 ring-1 rounded-sm ring-sky-300">
+                        <option value="5-11">5 - 11 Tahun</option>
+                        <option value="12-16">12 - 16 Tahun</option>
+                        <option value="17-25">17 - 25 Tahun</option>
+                        <option value="26-35">26 - 35 Tahun</option>
+                    </select>
+                </div>
+                <div class="mb-4">
+                    <label for="password" class="text-sm">Gender</label><br>
+                    <div class="rounded-sm ring-1 ring-sky-300 w-[100%] mt-1 py-1 px-2">
+                        <input type="radio" name="gender" id="male" value="male"><label for="male" class="ml-2">Male</label>
+                        <input type="radio" name="gender" id="female" class="ml-5" value="female"><label for="female" class="ml-2">Female</label>
+                </div>
+                <div class="mb-4 mt-4">
+                    <label for="password" class="text-sm">Motto Hidup</label><br>
+                    <textarea name="motto" id="motto" class=" resize-none
+                    h-20
+                    rounded-sm ring-1 ring-sky-300 w-[100%] mt-1 py-1 px-2" placeholder="Contoh: Mobile Legends selamanya."></textarea>
+                </div>
+                <div class="mb-6 mt-7 w-[90%] mx-auto">
+                    <input type="checkbox" name="persetujuan" id="persetujuan">
+                    <label for="persetujuan" class="text-xs">Dengan mendaftar maka Anda dianggap telah membaca, mengerti, memahami dan menyetujui semua isi dalam <a href="#" class="text-sky-300">Syarat dan Ketentuan</a> ini.</label>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="bg-sky-500 w-[40%] p-2 rounded-md text-white border-white" id="register">Register</button>
+                </div>
+            </form>
+            <p class="text-center mt-4">Sudah punya akun? <a href="../index.html" class="text-sky-300 font-bold">Login</a></p>
+        </div>
+    </div>
+<script src="../script/register.js"></script>
+</body>
+</html>

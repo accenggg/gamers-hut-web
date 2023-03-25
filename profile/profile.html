@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile | TOP UP GAME</title>
+    <link rel="icon" href="../img/icon-web.png">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div class="w-full h-[900px] bg-gradient-to-br to-sky-300 from-sky-100 px-4 pt-4 relative">
+        <div class="drop-shadow-xl relative" id="container-nav">
+            <div class="w-full h-14 bg-white rounded-md relative p-2">
+                <div class="float-left scale-90 -mt-1 cursor-pointer" id="navigation">
+                    <img src="../img/menu-icon-b.png" alt="">
+                </div>
+                <a href="../profile/profile.html">
+                    <div class="float-right w-10 h-10 bg-sky-500 rounded-full mr-3 overflow-hidden">
+                        <img src="../img/user.png" alt="">
+                    </div>
+                </a>
+                <div class="float-right mr-3 text-sm text-center font-medium">
+                    <p class="uppercase nama-user">Nama User</p>
+                    <p>Rp <span>0</span></p>
+                </div>
+            </div>
+            <div class="w-full bg-white absolute -bottom-44 rounded-md -z-10 px-4 py-4 hidden " id="nav-detail">
+                <a href="../pricelist/pricelist.html">
+                    <div class="w-full my-1 flex items-center">
+                        <img src="../img/html-icon.png" alt="" width="28" class="mt-0.5">
+                        <p class="ml-2">Daftar Harga</p>
+                    </div>
+                </a>
+                <hr>
+                <a href="../riwayat/riwayat.html">
+                    <div class="w-full my-1 flex items-center">
+                        <img src="../img/html-icon.png" alt="" width="28" class="mt-0.5">
+                        <p class="ml-2">Riwayat Pembelian</p>
+                    </div>
+                </a>
+                <hr>
+                <a href="../berita/berita.html">
+                    <div class="w-full my-1 flex items-center">
+                        <img src="../img/html-icon.png" alt="" width="28" class="mt-0.5">
+                        <p class="ml-2">Berita</p>
+                    </div>
+                </a>
+                <hr>
+                <a href="../developer/developer.html">
+                    <div class="w-full my-1 flex items-center">
+                        <img src="../img/html-icon.png" alt="" width="28" class="mt-0.5">
+                        <p class="ml-2">Developer</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        
+        <a href="../home/home.html" class="mt-5 inline-block w-72">
+            <div>
+                <img src="../img/prev-icon.png" alt="" width="25" class="float-left">
+                <img src="../img/prev-icon.png" alt="" width="25" class="float-left -ml-5">
+            </div>
+            <p class="font-semibold">Kembali ke halaman sebelumnya</p>
+        </a>
+        <div class="w-full bg-white mt-5 rounded-md drop-shadow-xl p-5">
+            <div class="clear-both w-full  h-10 mb-3">
+                <div class="bg-sky-300h-10 float-left mr-5">
+                    <div class="w-10">
+                        <img src="../img/user.png" alt="">
+                    </div>
+                </div>
+                <div class="float-left">
+                    <p class="font text-slate-600 nama-user uppercase">Nama User</p>
+                    <p class="text-xs tracking-wider">Selamat <span id="waktu">Pagi!</span></p>
+                </div>
+                <div class="float-right w-10">
+                    <img src="../img/icon-web.png" alt="">
+                </div>
+            </div>
+            <hr class="float-none border-2 my-3">
+            <div>
+                <div class="my-3">
+                    <p class="font-semibold text-slate-600 ">Email:</p>
+                    <p class="text-sm text-lime-500 tracking-wider" id="email"></p>
+                </div>
+                <div class="my-3">
+                    <p class="font-semibold text-slate-600">Saldo:</p>
+                    <p class="text-sm text-slate-700">Rp <span>0</span></p>
+                </div>
+                <div class="my-3">
+                    <p class="font-semibold text-slate-600" >Gender:</p>
+                    <p class="text-sm text-slate-700 uppercase" id="gender">Gender User</p>
+                </div>
+                <div class="my-3">
+                    <p class="font-semibold text-slate-600">Usia:</p>
+                    <p class="text-sm text-slate-700 uppercase" id="usia">Usia User</p>
+                </div>
+                <div class="my-3">
+                    <p class="font-semibold text-slate-600">Motto Hidup:</p>
+                    <p class="text-sm text-slate-700" id="motto">Motto</p>
+                </div>
+            </div>
+            <div class="text-center mt-10">
+                <a href="../index.html" class="bg-sky-500 py-2 px-5 rounded-md text-white border-white inline-block text-center">
+                    LOGOUT
+                </a>
+            </div>
+        </div>
+        <div class="h-10 absolute bottom-0 left-0 right-0 bg-sky-400 flex">
+            <p class="m-auto text-sm">Copyright &copy2023. Michael Dev Allright Reserved</p>
+        </div>
+    </div>
+<script src="../script/user.js"></script>
+<script src="../script/sapa.js"></script>
+<script src="../script/navbar.js"></script>
+</body>
+</html>
